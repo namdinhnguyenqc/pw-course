@@ -7,6 +7,14 @@ let ThongTin = [
     { "name": "Truc", "diem": 80 },
     { "name": "Vu", "diem": 80 }
 ];
+
+let ThongTin1 = [
+    { "name": "Nam", "diem": 90 },
+    { "name": "Lan", "diem": 80 },
+    { "name": "Lan", "diem": 80 },
+    { "name": "Truc", "diem": 80 },
+    { "name": "Vu", "diem": 80 }
+];
 function diemTrungBinh(sinhVien) {
     tongDiem = 0
     tongSV = sinhVien.length
@@ -16,5 +24,5 @@ function diemTrungBinh(sinhVien) {
     }
     return tongDiem / tongSV
 }
-console.log("Tổng điểm", diemTrungBinh(ThongTin))  //Điểm đúng là 81 điểm
+console.log("Tổng điểm", diemTrungBinh(ThongTin1))  //Điểm đúng là 81 điểm
 

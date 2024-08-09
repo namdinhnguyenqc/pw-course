@@ -9,3 +9,4 @@ let person = {
 }
 
 console.log(person.address.street);
+console.log(person["address"["street"]]);
