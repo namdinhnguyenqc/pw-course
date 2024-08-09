@@ -37,7 +37,7 @@
     Các file đưa vào vùng chuẩn bị commit (Tạo ra các phiên bản)
 - **Repository :**
     Các commit (Phiên bản)
-    ![Hình ảnh](https://images.datacamp.com/image/upload/v1651047046/image14_bfaa7bb66e.png)
+    ![Hình ảnh](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0AcV3snxLEYONwxueSdwB2fEAKgaQ3D2SwA&s)
 ### **d. Git - Key TakeAways**
 - Khởi tạo thư mục được quản lý bởi Git.
     
@@ -46,8 +46,7 @@
 
         git config --global user.name "K8 - Name"
 
-        git config --global user.email "namdinhnguyen2611@gmail.com"
-
+        git config --global user.email              "test@gmail.com"
 -  Thêm file vào vùng Staging
 
         Git add file.ts
@@ -56,10 +55,22 @@
 -  Commit
 
         git commit -m"message"
-
 - Deloy Code lên Github
 
         git push origin master
+- Sửa đổi commit gần nhất
+
+        git commit --amend
+- Thay đổi thông điệp commit gần nhất
+
+        git commit --amend -m"<message>"
+- Loại bỏ một tệp khỏi vùng stage.
+
+        git restore --staged <file>
+- Hủy bỏ commit gần nhất.
+
+        git reset HEAD~1
+
 
 ### **e. Git - Commit Convention**
 - Commit Message cần rõ ràng, chuyên nghiệp
